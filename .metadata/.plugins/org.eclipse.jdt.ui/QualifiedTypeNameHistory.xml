@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="teoria00.ProductoAbstract"/>
+<fullyQualifiedTypeName name="teoria00.ConcreteCreatorA"/>
+<fullyQualifiedTypeName name="teoria00.ConcreteProductB"/>
+<fullyQualifiedTypeName name="teoria00.ConcreteProductA"/>
+</qualifiedTypeNameHistroy>
