@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="teoria00.ProductoAbstract"/>
+<fullyQualifiedTypeName name="teoria00.ConcreteProductA"/>
+<fullyQualifiedTypeName name="teoria00.ConcreteProductC"/>
 <fullyQualifiedTypeName name="teoria00.ConcreteCreatorA"/>
 <fullyQualifiedTypeName name="teoria00.ConcreteProductB"/>
-<fullyQualifiedTypeName name="teoria00.ConcreteProductA"/>
+<fullyQualifiedTypeName name="teoriaBien01.ConcreteProductB"/>
+<fullyQualifiedTypeName name="teoriaBien01.ProductAbstract"/>
+<fullyQualifiedTypeName name="teoriaBien01.CreatorAbstract"/>
+<fullyQualifiedTypeName name="teoriaBien01.FactoryManager"/>
+<fullyQualifiedTypeName name="teoriaBien01.ConcreteCreatorB"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
+<fullyQualifiedTypeName name="teroiabienactual02.Product"/>
+<fullyQualifiedTypeName name="teroiabienactual02.ProductManager"/>
+<fullyQualifiedTypeName name="teroiabienactual02.Types"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="teroiabienactual02.ConcreteProductA"/>
+<fullyQualifiedTypeName name="java.lang.Enum"/>
+<fullyQualifiedTypeName name="teroiabienactual02.MiSupplierA"/>
+<fullyQualifiedTypeName name="java.lang.Deprecated"/>
+<fullyQualifiedTypeName name="teoria.UnoSingle"/>
 </qualifiedTypeNameHistroy>
