@@ -1,4 +1,4 @@
-package teoria00;
+package teoriamal00;
 
 public class ConcreteCreatorA extends CreatorAbstract {
 
@@ -9,8 +9,9 @@ public class ConcreteCreatorA extends CreatorAbstract {
 			return new ConcreteProductA();
 		case 2:
 			return new ConcreteProductB();
+		case 3:
+			return new ConcreteProductC();
 		}
 		return null;
 	}
-
 }

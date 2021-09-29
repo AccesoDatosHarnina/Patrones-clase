@@ -1,4 +1,4 @@
-package teoria00;
+package teoriaBien01;
 
 public interface ProductAbstract {
 	public void greet();

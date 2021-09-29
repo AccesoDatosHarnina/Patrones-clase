@@ -1,4 +1,4 @@
-package teoria00;
+package teoriamal00;
 
 public class ConcreteProductB implements ProductAbstract {
 
