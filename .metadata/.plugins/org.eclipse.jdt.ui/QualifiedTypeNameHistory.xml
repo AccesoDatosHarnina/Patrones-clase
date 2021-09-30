@@ -10,14 +10,22 @@
 <fullyQualifiedTypeName name="teoriaBien01.CreatorAbstract"/>
 <fullyQualifiedTypeName name="teoriaBien01.FactoryManager"/>
 <fullyQualifiedTypeName name="teoriaBien01.ConcreteCreatorB"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
 <fullyQualifiedTypeName name="teroiabienactual02.Product"/>
 <fullyQualifiedTypeName name="teroiabienactual02.ProductManager"/>
 <fullyQualifiedTypeName name="teroiabienactual02.Types"/>
-<fullyQualifiedTypeName name="java.util.function.Supplier"/>
 <fullyQualifiedTypeName name="teroiabienactual02.ConcreteProductA"/>
 <fullyQualifiedTypeName name="java.lang.Enum"/>
 <fullyQualifiedTypeName name="teroiabienactual02.MiSupplierA"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="teoria.UnoSingle"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Polar"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.function.Supplier"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Muro"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Ventana"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.extension.TestInstancePostProcessor"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Tipo"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Lado"/>
 </qualifiedTypeNameHistroy>
