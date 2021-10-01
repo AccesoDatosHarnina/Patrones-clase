@@ -19,13 +19,19 @@
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="teoria.UnoSingle"/>
 <fullyQualifiedTypeName name="ejerciciohabitacion03.Polar"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.function.Supplier"/>
 <fullyQualifiedTypeName name="ejerciciohabitacion03.Muro"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
 <fullyQualifiedTypeName name="ejerciciohabitacion03.Ventana"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Lado"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.extension.TestInstancePostProcessor"/>
 <fullyQualifiedTypeName name="ejerciciohabitacion03.Tipo"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Lado"/>
+<fullyQualifiedTypeName name="ejerciciohabitacion03.Utiles"/>
+<fullyQualifiedTypeName name="ejercicioHabitacion04.Muro"/>
+<fullyQualifiedTypeName name="ejercicioHabitacion04.Puerta"/>
+<fullyQualifiedTypeName name="ejercicioHabitacion04.Lado"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ejercicioHabitacion04.LadoCreador"/>
+<fullyQualifiedTypeName name="ejercicioHabitacion04.MuroCreador"/>
 </qualifiedTypeNameHistroy>

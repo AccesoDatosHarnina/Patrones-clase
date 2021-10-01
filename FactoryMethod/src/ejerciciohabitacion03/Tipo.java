@@ -26,7 +26,7 @@ public enum Tipo {
 
 	public static Lado getAleatorio() {
 		int length = Tipo.values().length;
-		int nextInt = new Random().nextInt(length);
+		int nextInt = Utiles.getRandomInt(length);
 		return getLado(Tipo.values()[nextInt]);
 
 	}
