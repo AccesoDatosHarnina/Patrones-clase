@@ -34,4 +34,7 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.LadoCreador"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.MuroCreador"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts"/>
+<fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts.Builder"/>
 </qualifiedTypeNameHistroy>
