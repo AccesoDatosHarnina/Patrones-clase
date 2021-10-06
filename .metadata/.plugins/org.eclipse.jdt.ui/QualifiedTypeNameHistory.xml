@@ -37,4 +37,10 @@
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts"/>
 <fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts.Builder"/>
+<fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
+<fullyQualifiedTypeName name="teoria.Prototype"/>
+<fullyQualifiedTypeName name="teoria.Cliente"/>
+<fullyQualifiedTypeName name="teoria.ConcretePrototypeOne"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="ejemplo01.Rectangulo"/>
 </qualifiedTypeNameHistroy>
