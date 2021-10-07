@@ -1,4 +1,4 @@
-package ejercicioHabitacion04;
+package ejercicioHabitacion05;
 
 import java.util.ArrayList;
 
@@ -8,6 +8,7 @@ public class Habitacion {
 	private final int size = 4;
 	ArrayList<Lado> lados=new ArrayList<>(size);
 	ArrayList<LadoCreador> creadores;
+	LadoCreador e = ()->{return new Puerta();};
 	
 	public Habitacion() {
 		super();
@@ -17,11 +18,13 @@ public class Habitacion {
 			lados.add((Lado) creadores.get(Utiles.getRandomInt(size)).factoryMethod());
 		}
 		//forzar un lado para que sea puerta
-		lados.add((Lado) new PuertaCreador().factoryMethod());
+		lados.add(e.factoryMethod());
 	}
 	
 	private void cargarCreadores() {
-		creadores.add(new MuroCreador());
-		creadores.add(new PuertaCreador());
+//		creadores.add(new MuroCreador());
+		
+		creadores.add(e);
+		creadores.add(()->{return new Muro();});
 	}
 }
