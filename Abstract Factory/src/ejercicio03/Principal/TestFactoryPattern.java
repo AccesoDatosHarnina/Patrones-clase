@@ -1,8 +1,8 @@
 package ejercicio03.Principal;
-import Factory.CarFactory;
-import Product.Car;
-import Product.CarType;
-import Product.Location;
+import ejercicio03.Factory.CarFactory;
+import ejercicio03.Product.Car;
+import ejercicio03.Product.CarType;
+import ejercicio03.Product.Location;
 
 public class TestFactoryPattern
 {

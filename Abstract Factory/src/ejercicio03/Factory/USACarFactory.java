@@ -1,10 +1,10 @@
 package ejercicio03.Factory;
-import Product.Car;
-import Product.CarType;
-import Product.Location;
-import Product.LuxuryCar;
-import Product.SedanCar;
-import Product.SmallCar;
+import ejercicio03.Product.Car;
+import ejercicio03.Product.CarType;
+import ejercicio03.Product.Location;
+import ejercicio03.Product.LuxuryCar;
+import ejercicio03.Product.SedanCar;
+import ejercicio03.Product.SmallCar;
 
 public class USACarFactory
 {
