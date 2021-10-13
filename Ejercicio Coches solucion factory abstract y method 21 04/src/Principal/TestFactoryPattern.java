@@ -1,4 +1,5 @@
 package Principal;
+import Factory.FactoryBike;
 import Factory.FactoryLuxuryCar;
 import Factory.FactoryUSA;
 import Product.Bike;
@@ -11,10 +12,10 @@ public class TestFactoryPattern
 	public static void main(String[] args)
 	{
 		//Creamos el Producto diciendo que queremos un coche de tipo SMALL
-//		System.out.println(new LuxuryCar(Location.USA));
+		System.out.println(new LuxuryCar(Location.USA));
 		
 		Car Micoche=new FactoryUSA().createCar(new FactoryLuxuryCar());
-		Bike bike=new FactoryUSA().createBike();
+		Bike bike=new FactoryUSA().createBike(FactoryBike.COUNTRY);
 		System.out.println(Micoche.getLocation());
 		System.out.println(Micoche.getClass());
 		
