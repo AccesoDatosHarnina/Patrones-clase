@@ -8,4 +8,9 @@
 <typeInfo handle="=Prototype/src&lt;teoria{Prototype.java[Prototype" modifiers="513" timestamp="1633503915863"/>
 <typeInfo handle="=Prototype/src&lt;teoria{ConcretePrototypeOne.java[ConcretePrototypeOne" modifiers="1" timestamp="1633504097908"/>
 <typeInfo handle="=Prototype/C:\/Program Files\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(Cloneable.class[Cloneable" modifiers="1537" timestamp="1516210625274"/>
+<typeInfo handle="=Abstract Factory/src&lt;teoria{AbstractProductA.java[AbstractProductA" modifiers="513" timestamp="1633674191345"/>
+<typeInfo handle="=Abstract Factory/src&lt;teoria{AbstractFactory.java[AbstractFactory" modifiers="513" timestamp="1633674191283"/>
+<typeInfo handle="=Abstract Factory/src&lt;ejercicio01{AbstractCuenta.java[AbstractCuenta" modifiers="513" timestamp="1633677450230"/>
+<typeInfo handle="=Abstract Factory/src&lt;ejercicio01{AbstractTarjetaDebito.java[AbstractTarjetaDebito" modifiers="513" timestamp="1633677423293"/>
+<typeInfo handle="=Abstract Factory/src&lt;ejercicio01{AbstractContratoFactory.java[AbstractContratoFactory" modifiers="513" timestamp="1633677618381"/>
 </typeInfoHistroy>

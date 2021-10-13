@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="teoria00.ProductoAbstract"/>
 <fullyQualifiedTypeName name="teoria00.ConcreteProductA"/>
 <fullyQualifiedTypeName name="teoria00.ConcreteProductC"/>
 <fullyQualifiedTypeName name="teoria00.ConcreteCreatorA"/>
@@ -39,9 +38,26 @@
 <fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts.Builder"/>
 <fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
 <fullyQualifiedTypeName name="teoria.Prototype"/>
-<fullyQualifiedTypeName name="teoria.Cliente"/>
 <fullyQualifiedTypeName name="teoria.ConcretePrototypeOne"/>
 <fullyQualifiedTypeName name="java.lang.Cloneable"/>
 <fullyQualifiedTypeName name="ejemplo01.Rectangulo"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.PuertaCreador"/>
+<fullyQualifiedTypeName name="teoria.AbstractProdutA"/>
+<fullyQualifiedTypeName name="teoria.ConcreteProductAOne"/>
+<fullyQualifiedTypeName name="teoria.ConcreteProductBOne"/>
+<fullyQualifiedTypeName name="teoria.AbstractFactory"/>
+<fullyQualifiedTypeName name="teoria.AbstractProductA"/>
+<fullyQualifiedTypeName name="teoria.AbstractProductB"/>
+<fullyQualifiedTypeName name="teoria.Cliente"/>
+<fullyQualifiedTypeName name="teoria.ConcreteFactoryOne"/>
+<fullyQualifiedTypeName name="ejercicio03.Product.CarType"/>
+<fullyQualifiedTypeName name="ejercicio03.Product.Location"/>
+<fullyQualifiedTypeName name="ejercicio01.ConcreteCuentaJoven"/>
+<fullyQualifiedTypeName name="ejercicio01.ConcreteTarjetaCreditoJoven"/>
+<fullyQualifiedTypeName name="ejercicio01.AbstractContratoFactory"/>
+<fullyQualifiedTypeName name="ejercicio01.AbstractCuenta"/>
+<fullyQualifiedTypeName name="ejercicio01.AbstractTarjetaCredito"/>
+<fullyQualifiedTypeName name="ejercicio01.AbstractTarjetaDebito"/>
+<fullyQualifiedTypeName name="ejercicio01.Cliente"/>
+<fullyQualifiedTypeName name="ejercicio01.ConcreteContratoFactoryJoven"/>
 </qualifiedTypeNameHistroy>
