@@ -16,9 +16,10 @@ import java.util.Collection;
 import java.util.Collections;
 import java.awt.event.ActionEvent;
 
-public class ÉjercicioBridgeOne extends JFrame {
+public class ÉjercicioAdapterOneSloucion extends JFrame {
 
 	private JPanel contentPane;
+	private ArrayList<Cliente> clientes;
 
 	/**
 	 * Launch the application.
@@ -27,7 +28,7 @@ public class ÉjercicioBridgeOne extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ÉjercicioBridgeOne frame = new ÉjercicioBridgeOne();
+					ÉjercicioAdapterOneSloucion frame = new ÉjercicioAdapterOneSloucion();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -39,15 +40,20 @@ public class ÉjercicioBridgeOne extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public ÉjercicioBridgeOne() {
+	public ÉjercicioAdapterOneSloucion() {
+		clientes = new ArrayList<>();
+		clientes.add(new Cliente("Luis", (byte) 22, new Cuenta("1")));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
-		String[] cosas= {"uno","dos"};
-		JList<String> list = new JList(cosas);
+		ArrayList<AdaptadorCliente> adaptadorClientes = new ArrayList<>();
+		for (Cliente cliente : clientes) {
+			adaptadorClientes.add(new AdaptadorCliente(cliente));
+		}
+		JList<String> list = new JList(adaptadorClientes.toArray());
 		contentPane.add(list, BorderLayout.CENTER);
 		JButton btnGo = new JButton("GO!");
 		btnGo.addActionListener(new ActionListener() {

@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="teoria00.ConcreteProductC"/>
-<fullyQualifiedTypeName name="teoria00.ConcreteCreatorA"/>
-<fullyQualifiedTypeName name="teoria00.ConcreteProductB"/>
-<fullyQualifiedTypeName name="teoriaBien01.ConcreteProductB"/>
-<fullyQualifiedTypeName name="teoriaBien01.ProductAbstract"/>
-<fullyQualifiedTypeName name="teoriaBien01.CreatorAbstract"/>
-<fullyQualifiedTypeName name="teoriaBien01.FactoryManager"/>
-<fullyQualifiedTypeName name="teoriaBien01.ConcreteCreatorB"/>
-<fullyQualifiedTypeName name="teroiabienactual02.Product"/>
-<fullyQualifiedTypeName name="teroiabienactual02.ProductManager"/>
-<fullyQualifiedTypeName name="teroiabienactual02.Types"/>
-<fullyQualifiedTypeName name="teroiabienactual02.ConcreteProductA"/>
-<fullyQualifiedTypeName name="java.lang.Enum"/>
 <fullyQualifiedTypeName name="teroiabienactual02.MiSupplierA"/>
 <fullyQualifiedTypeName name="java.lang.Deprecated"/>
 <fullyQualifiedTypeName name="teoria.UnoSingle"/>
@@ -29,10 +16,8 @@
 <fullyQualifiedTypeName name="ejercicioHabitacion04.Muro"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.Puerta"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.Lado"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.LadoCreador"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.MuroCreador"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts"/>
 <fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts.Builder"/>
 <fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
@@ -60,4 +45,19 @@
 <fullyQualifiedTypeName name="ejercicio01.ConcreteContratoFactoryJoven"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="ejercicio03.Product.Location"/>
+<fullyQualifiedTypeName name="esquema.Service"/>
+<fullyQualifiedTypeName name="org.w3c.dom.events.MutationEvent"/>
+<fullyQualifiedTypeName name="esquema.Adapter"/>
+<fullyQualifiedTypeName name="esquema.Data"/>
+<fullyQualifiedTypeName name="esquema.Implementation"/>
+<fullyQualifiedTypeName name="esquema.Abstraction"/>
+<fullyQualifiedTypeName name="esquema.ConcreteImplementationA"/>
+<fullyQualifiedTypeName name="esquema.Client"/>
+<fullyQualifiedTypeName name="esquema.ConcreteImplementationB"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
