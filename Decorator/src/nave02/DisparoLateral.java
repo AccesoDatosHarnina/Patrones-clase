@@ -1,4 +1,4 @@
-package ejercicio01naveespacial;
+package nave02;
 
 public class DisparoLateral implements Nave {
 
@@ -21,8 +21,7 @@ public class DisparoLateral implements Nave {
 
 	@Override
 	public Nave quitarArmadura() {
-		// TODO Auto-generated method stub
-		return null;
+		return naveActual;
 	}
 
 	@Override
