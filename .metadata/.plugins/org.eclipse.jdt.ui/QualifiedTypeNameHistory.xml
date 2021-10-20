@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="teroiabienactual02.MiSupplierA"/>
-<fullyQualifiedTypeName name="java.lang.Deprecated"/>
-<fullyQualifiedTypeName name="teoria.UnoSingle"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Polar"/>
-<fullyQualifiedTypeName name="java.util.function.Supplier"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Muro"/>
-<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Ventana"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Lado"/>
-<fullyQualifiedTypeName name="org.junit.jupiter.api.extension.TestInstancePostProcessor"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Tipo"/>
-<fullyQualifiedTypeName name="ejerciciohabitacion03.Utiles"/>
-<fullyQualifiedTypeName name="ejercicioHabitacion04.Muro"/>
-<fullyQualifiedTypeName name="ejercicioHabitacion04.Puerta"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.Lado"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.LadoCreador"/>
 <fullyQualifiedTypeName name="ejercicioHabitacion04.MuroCreador"/>
@@ -41,7 +26,6 @@
 <fullyQualifiedTypeName name="ejercicio01.AbstractCuenta"/>
 <fullyQualifiedTypeName name="ejercicio01.AbstractTarjetaCredito"/>
 <fullyQualifiedTypeName name="ejercicio01.AbstractTarjetaDebito"/>
-<fullyQualifiedTypeName name="ejercicio01.Cliente"/>
 <fullyQualifiedTypeName name="ejercicio01.ConcreteContratoFactoryJoven"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
 <fullyQualifiedTypeName name="ejercicio03.Product.Location"/>
@@ -58,6 +42,22 @@
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejercicio01.Cuenta"/>
+<fullyQualifiedTypeName name="ejercicio01.Cliente"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ejercicio01.AdaptadorCliente"/>
+<fullyQualifiedTypeName name="ejemplillo01.HornoDeLena"/>
+<fullyQualifiedTypeName name="esquema.ComplicadaA"/>
+<fullyQualifiedTypeName name="esquema.ComplicadaB"/>
+<fullyQualifiedTypeName name="esquema01.ComplicadaA"/>
+<fullyQualifiedTypeName name="esquema01.ComplicadaB"/>
+<fullyQualifiedTypeName name="esquema01.Facade"/>
+<fullyQualifiedTypeName name="esquema01.ComplicadaC"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="ejemplo01.ImpresoraNormal"/>
+<fullyQualifiedTypeName name="ejemplo01.FacadeImpresora"/>
+<fullyQualifiedTypeName name="esquema.Component"/>
+<fullyQualifiedTypeName name="esquema.ConcreteComponent"/>
+<fullyQualifiedTypeName name="esquema.ConcreteDecorator"/>
+<fullyQualifiedTypeName name="esquema.ConcreteDecoratorB"/>
 </qualifiedTypeNameHistroy>
