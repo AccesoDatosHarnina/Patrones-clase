@@ -27,4 +27,14 @@ public class DisparoSuper implements Nave {
 		return null;
 	}
 
+	@Override
+	public Nave quitarDisparo() {
+		return nave;
+	}
+
+	@Override
+	public Nave quitarCapa() {
+		return nave.quitarCapa();
+	}
+
 }

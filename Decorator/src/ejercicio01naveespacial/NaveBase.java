@@ -19,4 +19,15 @@ public class NaveBase implements Nave {
 		return null;
 	}
 
+	@Override
+	public Nave quitarDisparo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Nave quitarCapa() {
+		return this;
+	}
+
 }

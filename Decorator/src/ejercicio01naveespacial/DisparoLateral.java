@@ -16,14 +16,24 @@ public class DisparoLateral implements Nave {
 
 	@Override
 	public int ponerArmadura() {
-		// TODO Auto-generated method stub
-		return 0;
+		return naveActual.ponerArmadura();
 	}
 
 	@Override
 	public Nave quitarArmadura() {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public Nave quitarDisparo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Nave quitarCapa() {
+		return naveActual.quitarCapa();
 	}
 
 }
