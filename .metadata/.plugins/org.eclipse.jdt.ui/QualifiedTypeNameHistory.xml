@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ejercicioHabitacion04.Lado"/>
-<fullyQualifiedTypeName name="ejercicioHabitacion04.LadoCreador"/>
-<fullyQualifiedTypeName name="ejercicioHabitacion04.MuroCreador"/>
-<fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts"/>
-<fullyQualifiedTypeName name="primeraImplementacion.NutritionFacts.Builder"/>
-<fullyQualifiedTypeName name="java.util.PrimitiveIterator"/>
-<fullyQualifiedTypeName name="teoria.Prototype"/>
 <fullyQualifiedTypeName name="teoria.ConcretePrototypeOne"/>
 <fullyQualifiedTypeName name="java.lang.Cloneable"/>
 <fullyQualifiedTypeName name="ejemplo01.Rectangulo"/>
@@ -60,4 +53,11 @@
 <fullyQualifiedTypeName name="esquema.ConcreteComponent"/>
 <fullyQualifiedTypeName name="esquema.ConcreteDecorator"/>
 <fullyQualifiedTypeName name="esquema.ConcreteDecoratorB"/>
+<fullyQualifiedTypeName name="ejercicio01naveespacial.NaveBase"/>
+<fullyQualifiedTypeName name="ejercicio01naveespacial.DisparoLateral"/>
+<fullyQualifiedTypeName name="ejercicio01naveespacial.DisparoSuper"/>
+<fullyQualifiedTypeName name="ejercicio01naveespacial.Nave"/>
+<fullyQualifiedTypeName name="nave02.Nave"/>
+<fullyQualifiedTypeName name="nave02.Armadura"/>
+<fullyQualifiedTypeName name="nave02.DisparoLateral"/>
 </qualifiedTypeNameHistroy>
