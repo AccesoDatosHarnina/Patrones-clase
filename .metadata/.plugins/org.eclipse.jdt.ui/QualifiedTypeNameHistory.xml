@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="teoria.ConcretePrototypeOne"/>
-<fullyQualifiedTypeName name="java.lang.Cloneable"/>
-<fullyQualifiedTypeName name="ejemplo01.Rectangulo"/>
-<fullyQualifiedTypeName name="ejercicioHabitacion04.PuertaCreador"/>
 <fullyQualifiedTypeName name="teoria.AbstractProdutA"/>
 <fullyQualifiedTypeName name="teoria.ConcreteProductAOne"/>
 <fullyQualifiedTypeName name="teoria.ConcreteProductBOne"/>
@@ -60,4 +56,8 @@
 <fullyQualifiedTypeName name="nave02.Nave"/>
 <fullyQualifiedTypeName name="nave02.Armadura"/>
 <fullyQualifiedTypeName name="nave02.DisparoLateral"/>
+<fullyQualifiedTypeName name="solucion.TreeNumber"/>
+<fullyQualifiedTypeName name="solucion.Client"/>
+<fullyQualifiedTypeName name="solucion.TreeNumberComposite"/>
+<fullyQualifiedTypeName name="solucion.TreeNumberLeaf"/>
 </qualifiedTypeNameHistroy>
