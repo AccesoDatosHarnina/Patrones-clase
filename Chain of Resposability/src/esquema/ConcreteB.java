@@ -1,6 +1,5 @@
 package esquema;
 
-import solucion01.BaseHandler;
 
 public class ConcreteB extends BaseHandler {
 
