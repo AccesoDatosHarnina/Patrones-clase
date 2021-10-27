@@ -1,7 +1,4 @@
-package esquema;
-
-import esquema.Handler;
-import esquema.RequestCDR;
+package solucion01;
 
 public abstract class BaseHandler implements Handler {
 	Handler next;
@@ -15,7 +12,7 @@ public abstract class BaseHandler implements Handler {
 		next=handler;
 	}
 	@Override
-	public void handle(RequestCDR request) {
+	public void handle(ObjectOfManaging request) {
 		if(next!=null) {
 			next.handle(request);
 		}
