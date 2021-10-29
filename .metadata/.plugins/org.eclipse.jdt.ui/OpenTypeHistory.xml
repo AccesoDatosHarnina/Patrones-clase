@@ -20,4 +20,6 @@
 <typeInfo handle="=Decorator/src&lt;ejercicio01naveespacial{Nave.java[Nave" modifiers="513" timestamp="1634712764065"/>
 <typeInfo handle="=Composite/src&lt;solucion{TreeNumber.java[TreeNumber" modifiers="513" timestamp="1634896410303"/>
 <typeInfo handle="=FlyWeight/src&lt;esquema{UniqueAbstractState.java[UniqueAbstractState" modifiers="1025" timestamp="1635144130610"/>
+<typeInfo handle="=Chain of Resposability/src&lt;esquema{Handler.java[Handler" modifiers="513" timestamp="1635317270078"/>
+<typeInfo handle="=Chain of Resposability/src&lt;esquema{BaseHandler.java[BaseHandler" modifiers="1025" timestamp="1635320170354"/>
 </typeInfoHistroy>

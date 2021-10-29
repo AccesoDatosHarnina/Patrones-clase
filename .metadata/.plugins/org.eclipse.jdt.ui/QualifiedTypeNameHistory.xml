@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="ejercicio01.ConcreteContratoFactoryJoven"/>
-<fullyQualifiedTypeName name="java.util.function.Consumer"/>
-<fullyQualifiedTypeName name="ejercicio03.Product.Location"/>
-<fullyQualifiedTypeName name="esquema.Service"/>
-<fullyQualifiedTypeName name="org.w3c.dom.events.MutationEvent"/>
-<fullyQualifiedTypeName name="esquema.Adapter"/>
-<fullyQualifiedTypeName name="esquema.Data"/>
-<fullyQualifiedTypeName name="esquema.Implementation"/>
-<fullyQualifiedTypeName name="esquema.Abstraction"/>
-<fullyQualifiedTypeName name="esquema.ConcreteImplementationA"/>
-<fullyQualifiedTypeName name="esquema.Client"/>
-<fullyQualifiedTypeName name="esquema.ConcreteImplementationB"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="ejercicio01.Cuenta"/>
 <fullyQualifiedTypeName name="ejercicio01.Cliente"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="ejercicio01.AdaptadorCliente"/>
 <fullyQualifiedTypeName name="ejemplillo01.HornoDeLena"/>
 <fullyQualifiedTypeName name="esquema.ComplicadaA"/>
@@ -60,4 +43,21 @@
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="ejercicio01Problema.ServicioBBDD"/>
 <fullyQualifiedTypeName name="ejercicio01Problema.Client"/>
+<fullyQualifiedTypeName name="Handler"/>
+<fullyQualifiedTypeName name="Request"/>
+<fullyQualifiedTypeName name="esquema.BaseHandler"/>
+<fullyQualifiedTypeName name="esquema.ConcreteB"/>
+<fullyQualifiedTypeName name="esquema.RequestCDR"/>
+<fullyQualifiedTypeName name="esquema.Handler"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="esquema.ConcreteA"/>
+<fullyQualifiedTypeName name="esquema.Client"/>
+<fullyQualifiedTypeName name="problema01.Manager"/>
+<fullyQualifiedTypeName name="problema01.ObjectOfManaging"/>
+<fullyQualifiedTypeName name="solucion01.BaseHandler"/>
+<fullyQualifiedTypeName name="solucion01.Solution"/>
+<fullyQualifiedTypeName name="solucion01.Exclusion"/>
+<fullyQualifiedTypeName name="solucion01.Inhibition"/>
+<fullyQualifiedTypeName name="solucion01.ObjectOfManaging"/>
+<fullyQualifiedTypeName name="problema03.Coche"/>
 </qualifiedTypeNameHistroy>

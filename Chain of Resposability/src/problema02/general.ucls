@@ -1,120 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="problema02.Demo" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/Demo.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="60" width="104" x="62" y="218"/>    
+  <class id="1" language="java" name="problema02.ToolA" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/ToolA.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="799" y="43"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="problema02.Fixer" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/Fixer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="167" y="361"/>    
+  <class id="2" language="java" name="problema02.ToolB" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/ToolB.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="784" y="197"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="problema02.Request" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/Request.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="335" y="120"/>    
+  <class id="3" language="java" name="problema02.ToolC" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/ToolC.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="799" y="338"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <interface id="4" language="java" name="problema02.Tool" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/Tool.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="598" y="287"/>    
+  <interface id="4" language="java" name="problema02.Tool" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/Tool.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="614" y="187"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </interface>  
-  <class id="5" language="java" name="problema02.ToolA" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/ToolA.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="60" width="104" x="858" y="209"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="false" package="false" protected="false" private="false" static="false"/>    
-    </display>  
-  </class>  
-  <class id="6" language="java" name="problema02.ToolB" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/ToolB.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="60" width="104" x="799" y="368"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="false" package="false" protected="false" private="false" static="false"/>    
-    </display>  
-  </class>  
-  <class id="7" language="java" name="problema02.ToolC" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/ToolC.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="60" width="104" x="608" y="407"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
-      <operations public="false" package="false" protected="false" private="false" static="false"/>    
-    </display>  
-  </class>  
-  <enumeration id="8" language="java" name="problema02.FixType" project="ChainOfResponsility" 
-    file="/ChainOfResponsility/src/problema02/FixType.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="404" y="243"/>    
+  <enumeration id="5" language="java" name="problema02.FixType" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/FixType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="397" y="195"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </enumeration>  
-  <association id="9">    
-    <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="10" name="fixType"/>      
-      <multiplicity id="11" minimum="0" maximum="1"/>    
-    </end>    
-    <end type="TARGET" refId="8" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <realization id="12">    
-    <end type="SOURCE" refId="5"/>    
+  <class id="6" language="java" name="problema02.Fixer" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/Fixer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="109" y="172"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="problema02.Demo" project="Chain of Resposability" 
+    file="/Chain of Resposability/src/problema02/Demo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="60" width="104" x="97" y="342"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="false" package="false" protected="false" private="false" static="false"/>    
+    </display>  
+  </class>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="9">    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="4"/>  
   </realization>  
-  <dependency id="13">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="2"/>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="5"/>  
   </dependency>  
-  <dependency id="14">    
+  <realization id="11">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="4"/>  
+  </realization>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="6"/>  
   </dependency>  
-  <dependency id="15">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="8"/>  
-  </dependency>  
-  <dependency id="16">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="3"/>  
-  </dependency>  
-  <association id="17">    
-    <end type="SOURCE" refId="8" navigable="false">      
-      <attribute id="18" name="tool"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
+  <association id="13">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="14" name="tool"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="20">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="4"/>  
-  </realization>  
-  <realization id="21">    
-    <end type="SOURCE" refId="7"/>    
+  <realization id="16">    
+    <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="4"/>  
   </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
