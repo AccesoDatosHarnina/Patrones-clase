@@ -8,6 +8,5 @@ public class Client {
 		new Imprimadora().imrpimar(coche);
 		new Pintor().pintar(coche);
 		System.out.println(coche.getEstado());
-		
 	}
 }
