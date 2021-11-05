@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="solucion.Client"/>
-<fullyQualifiedTypeName name="solucion.TreeNumberComposite"/>
-<fullyQualifiedTypeName name="solucion.TreeNumberLeaf"/>
-<fullyQualifiedTypeName name="esquema.UniqueAbstractState"/>
-<fullyQualifiedTypeName name="esquema.RepeatingAbstactState"/>
-<fullyQualifiedTypeName name="esquema.FlyWeight"/>
-<fullyQualifiedTypeName name="esquema.FlyWeightFactory"/>
-<fullyQualifiedTypeName name="esquema.Context"/>
-<fullyQualifiedTypeName name="esquema.UniqueState"/>
-<fullyQualifiedTypeName name="esquema.RepeatingState"/>
-<fullyQualifiedTypeName name="IService"/>
-<fullyQualifiedTypeName name="Client"/>
-<fullyQualifiedTypeName name="ProxyService"/>
-<fullyQualifiedTypeName name="Service"/>
-<fullyQualifiedTypeName name="Test"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="ejercicio01Problema.ServicioBBDD"/>
 <fullyQualifiedTypeName name="ejercicio01Problema.Client"/>
@@ -24,7 +9,6 @@
 <fullyQualifiedTypeName name="esquema.ConcreteB"/>
 <fullyQualifiedTypeName name="esquema.RequestCDR"/>
 <fullyQualifiedTypeName name="esquema.Handler"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="esquema.ConcreteA"/>
 <fullyQualifiedTypeName name="esquema.Client"/>
 <fullyQualifiedTypeName name="problema01.Manager"/>
@@ -40,7 +24,6 @@
 <fullyQualifiedTypeName name="solucion03.BaseHandler"/>
 <fullyQualifiedTypeName name="solucion03.Imprimadora"/>
 <fullyQualifiedTypeName name="solucion03.Pintor"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="javax.print.attribute.ResolutionSyntax"/>
 <fullyQualifiedTypeName name="problema03.Coche"/>
 <fullyQualifiedTypeName name="problema03.Client"/>
@@ -49,7 +32,6 @@
 <fullyQualifiedTypeName name="solucion03Enum.Coche"/>
 <fullyQualifiedTypeName name="solucion01.ObjectOfManaging"/>
 <fullyQualifiedTypeName name="solucion03Enum.Handler"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="java.nio.charset.StandardCharsets"/>
 <fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
 <fullyQualifiedTypeName name="solucion03Enum.TreatmentType"/>
@@ -60,4 +42,22 @@
 <fullyQualifiedTypeName name="ejemplo01Problema.ClasA"/>
 <fullyQualifiedTypeName name="ejemplo01Solucion.Client"/>
 <fullyQualifiedTypeName name="ejemplo01Solucion.ClasA"/>
+<fullyQualifiedTypeName name="mezclaCommandAndChain.Client"/>
+<fullyQualifiedTypeName name="mezclaCommandAndChain.Coche"/>
+<fullyQualifiedTypeName name="mezclaCommandAndChainPlanteamiento.BaseHandler"/>
+<fullyQualifiedTypeName name="java.awt.print.PrinterAbortException"/>
+<fullyQualifiedTypeName name="esquema.MYCollection"/>
+<fullyQualifiedTypeName name="esquema.IteradorConcreto"/>
+<fullyQualifiedTypeName name="esquema.MyCollection"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="Mediator"/>
+<fullyQualifiedTypeName name="MediatorConcrete"/>
+<fullyQualifiedTypeName name="ComponenteA"/>
+<fullyQualifiedTypeName name="problema01.Departamento"/>
+<fullyQualifiedTypeName name="solucion01.Empresa"/>
+<fullyQualifiedTypeName name="problema01.Empleado"/>
 </qualifiedTypeNameHistroy>

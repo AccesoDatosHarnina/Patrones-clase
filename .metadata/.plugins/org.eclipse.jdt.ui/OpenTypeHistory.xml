@@ -22,4 +22,9 @@
 <typeInfo handle="=FlyWeight/src&lt;esquema{UniqueAbstractState.java[UniqueAbstractState" modifiers="1025" timestamp="1635144130610"/>
 <typeInfo handle="=Chain of Resposability/src&lt;esquema{Handler.java[Handler" modifiers="513" timestamp="1635317270078"/>
 <typeInfo handle="=Chain of Resposability/src&lt;esquema{BaseHandler.java[BaseHandler" modifiers="1025" timestamp="1635320170354"/>
+<typeInfo handle="=Iterator/src&lt;esquema{Iterator.java[Iterator" modifiers="513" timestamp="1635925834742"/>
+<typeInfo handle="=Iterator/C:\/Program Files\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.lang(Iterable.class[Iterable" modifiers="1537" timestamp="1516210625274"/>
+<typeInfo handle="=Iterator/src&lt;esquema{IterableCollection.java[IterableCollection" modifiers="513" timestamp="1635925871038"/>
+<typeInfo handle="=Iterator/C:\/Program Files\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;java.awt(ItemSelectable.class[ItemSelectable" modifiers="1537" timestamp="1516210625274"/>
+<typeInfo handle="=Mediator/C:\/Program Files\/Java\/jre1.8.0_161\/lib\/rt.jar&lt;org.w3c.dom.stylesheets(MediaList.class[MediaList" modifiers="1537" timestamp="1516210625274"/>
 </typeInfoHistroy>
