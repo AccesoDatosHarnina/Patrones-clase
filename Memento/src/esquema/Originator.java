@@ -1,5 +1,5 @@
 package esquema;
-public class Originator<T extends Cloneable > {
+public class Originator<T extends Clonable<T> > {
 	T state;
 	
 	
@@ -9,8 +9,8 @@ public class Originator<T extends Cloneable > {
 	}
 
 
-	public Memento<T> save(){
-		return new Memento<T>(this.state);
+	public Memento<T> save() throws CloneNotSupportedException{
+		return new Memento<T>(this.state.clonar());
 	}
 	
 	public void restore(Memento<T> memento) {

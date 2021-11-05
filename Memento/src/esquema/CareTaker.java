@@ -2,7 +2,7 @@ package esquema;
 
 import java.util.Stack;
 
-public class CareTaker<T> {
+public class CareTaker<T extends Clonable<T>> {
 	private Originator<T> originator;
 	private Stack<Memento<T>> mementos = new Stack<>();
 
@@ -11,7 +11,7 @@ public class CareTaker<T> {
 		this.originator = originator;
 	}
 
-	public void doSomething() {
+	public void doSomething() throws CloneNotSupportedException {
 		Memento<T> save  = originator.save();
 		mementos.push(save);
 	}
@@ -21,5 +21,9 @@ public class CareTaker<T> {
 		if(pop!=null) {
 			originator.restore(pop);
 		}
+	}
+	
+	public void redo() {
+		
 	}
 }
