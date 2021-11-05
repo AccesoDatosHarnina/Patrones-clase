@@ -1,6 +1,5 @@
 package esquema;
-
-public class Originator<T> {
+public class Originator<T extends Cloneable > {
 	T state;
 	
 	
