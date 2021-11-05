@@ -34,7 +34,7 @@ public class State implements Clonable<State> {
 
 	@Override
 	public State clonar() throws CloneNotSupportedException {
-		return new State(this.id, this.datos);
+		return new State(this.id, this.datos,this.subState.clonar());
 	}
 
 	public SubState getSubState() {

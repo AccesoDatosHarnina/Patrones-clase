@@ -15,6 +15,7 @@ public static void main(String[] args) throws CloneNotSupportedException {
 	careTaker.doSomething();
 	originator.state.setId(3);
 	originator.state.getSubState().setLocalDate(LocalDate.of(2004, Month.APRIL, 11));
+	originator.state.getSubState().setName("otro nombre");
 	originator.state.setDatos("el");
 	careTaker.doSomething();
 	originator.state.setId(4);

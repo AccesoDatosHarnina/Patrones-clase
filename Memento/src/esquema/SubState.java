@@ -2,7 +2,7 @@ package esquema;
 
 import java.time.LocalDate;
 
-public class SubState {
+public class SubState implements Clonable<SubState> {
 	private LocalDate localDate;
 	private String name;
 
@@ -62,6 +62,11 @@ public class SubState {
 	@Override
 	public String toString() {
 		return "SubState [localDate=" + localDate + ", name=" + name + "]";
+	}
+
+	@Override
+	public SubState clonar() throws CloneNotSupportedException {
+		return new SubState(this.localDate, this.name);
 	}
 
 }
