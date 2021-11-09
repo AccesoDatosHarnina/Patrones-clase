@@ -9,5 +9,8 @@ public class UserProblem {
 	public static void main(String[] args) {
 		Empresa empresa = new Empresa();
 		Iterator<Empleado> iterator = empresa.createIterator();
+		do {
+			System.out.println(iterator.getNext().toString());
+		}while(iterator.hasMore());
 	}
 }

@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
-<fullyQualifiedTypeName name="ejercicio01Problema.ServicioBBDD"/>
-<fullyQualifiedTypeName name="ejercicio01Problema.Client"/>
-<fullyQualifiedTypeName name="Handler"/>
-<fullyQualifiedTypeName name="Request"/>
-<fullyQualifiedTypeName name="esquema.BaseHandler"/>
-<fullyQualifiedTypeName name="esquema.ConcreteB"/>
-<fullyQualifiedTypeName name="esquema.RequestCDR"/>
-<fullyQualifiedTypeName name="esquema.Handler"/>
 <fullyQualifiedTypeName name="esquema.ConcreteA"/>
 <fullyQualifiedTypeName name="esquema.Client"/>
 <fullyQualifiedTypeName name="problema01.Manager"/>
@@ -49,8 +40,6 @@
 <fullyQualifiedTypeName name="esquema.MYCollection"/>
 <fullyQualifiedTypeName name="esquema.IteradorConcreto"/>
 <fullyQualifiedTypeName name="esquema.MyCollection"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -59,5 +48,16 @@
 <fullyQualifiedTypeName name="ComponenteA"/>
 <fullyQualifiedTypeName name="problema01.Departamento"/>
 <fullyQualifiedTypeName name="solucion01.Empresa"/>
+<fullyQualifiedTypeName name="T"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Cloneable"/>
+<fullyQualifiedTypeName name="esquema.State"/>
+<fullyQualifiedTypeName name="java.time.Month"/>
+<fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="esquema.Clonable"/>
+<fullyQualifiedTypeName name="esquema.SubState"/>
+<fullyQualifiedTypeName name="esquema.IterableCollection"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="problema01.Empleado"/>
+<fullyQualifiedTypeName name="esquema.Iterator"/>
 </qualifiedTypeNameHistroy>
