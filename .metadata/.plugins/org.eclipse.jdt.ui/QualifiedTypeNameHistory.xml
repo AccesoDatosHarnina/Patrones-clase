@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="esquema.ConcreteA"/>
-<fullyQualifiedTypeName name="esquema.Client"/>
 <fullyQualifiedTypeName name="problema01.Manager"/>
 <fullyQualifiedTypeName name="problema01.ObjectOfManaging"/>
 <fullyQualifiedTypeName name="solucion01.BaseHandler"/>
@@ -60,4 +58,6 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="problema01.Empleado"/>
 <fullyQualifiedTypeName name="esquema.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>
