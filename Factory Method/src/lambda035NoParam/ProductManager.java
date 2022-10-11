@@ -1,4 +1,4 @@
-package lambda035;
+package lambda035NoParam;
 
 //Tu vas a ser singleton
 public class ProductManager {

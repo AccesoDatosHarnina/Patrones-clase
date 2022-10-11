@@ -1,4 +1,4 @@
-package lambda035;
+package lambda035NoParam;
 
 public class ConcreteProductB extends Product {
 	//A parte de la implementacion de metodos comunes

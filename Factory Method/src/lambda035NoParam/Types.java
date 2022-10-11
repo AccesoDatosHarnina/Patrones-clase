@@ -1,4 +1,4 @@
-package lambda035;
+package lambda035NoParam;
 
 import java.util.function.Supplier;
 
@@ -9,7 +9,7 @@ public enum Types {
 	C(()->{return new ConcreteProductC();});
 
 	private Supplier<Product> supplier;
-	
+	private int valor;
 	private Types(Supplier<Product> supplier) {
 		this.supplier = supplier;
 	}

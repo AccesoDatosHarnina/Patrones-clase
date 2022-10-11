@@ -1,4 +1,4 @@
-package lambda035;
+package lambda035NoParam;
 
 public class Prueba {
 public static void main(String[] args) {

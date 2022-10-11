@@ -1,4 +1,4 @@
-package lambda035;
+package lambda035NoParam;
 public abstract class Product {
 	//se puede poner pero no se pueden hacer getters and setters
 	int pcss=9;

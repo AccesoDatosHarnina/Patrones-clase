@@ -1,4 +1,4 @@
-package lambda035;
+package lambda036param;
 
 public class ConcreteProductC extends Product {
 
