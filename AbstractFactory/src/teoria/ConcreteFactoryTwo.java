@@ -1,19 +1,19 @@
 package teoria;
 
-public class ConcreteFactoryOne implements AbstactFactory {
+public class ConcreteFactoryTwo implements AbstactFactory {
 
 	@Override
 	public AbstractProductA getProductA() {
-		return new ProductAOne();
+		return new ProductATwo();
 	}
 
 	@Override
 	public AbstractProductB getProductB() {
-		return new ProductBOne();
+		// TODO Auto-generated method stub
+		return null;
 	}
-
 	@Override
 	public String toString() {
-		return "tipo A";
+		return "tipo B";
 	}
 }

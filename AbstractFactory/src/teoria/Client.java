@@ -2,13 +2,16 @@ package teoria;
 
 public class Client {
 public static void main(String[] args) {
-	AbstactFactory factory;
+//	AbstactFactory factory;
 	AbstractProductA productA;
 	AbstractProductB productB;
-	
+	Client client=new Client();
 //
-	factory=new ConcreteFactoryOne();
-	productA=factory.getProductA();
-	productB=factory.getProductB();
+	productA=client.createA(new ConcreteFactoryOne());
+//	productB=factory.getProductB();
+}
+
+public AbstractProductA createA(AbstactFactory abstactFactory) {
+	return abstactFactory.getProductA();
 }
 }
