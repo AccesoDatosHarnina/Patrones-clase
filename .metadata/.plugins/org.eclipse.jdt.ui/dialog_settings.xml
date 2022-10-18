@@ -4,6 +4,8 @@
 	<item key="TypeHierarchyViewPart.orientation" value="3"/>
 	<item key="TypeHierarchyViewPart.linkeditors" value="false"/>
 	<item key="TypeHierarchyViewPart.hierarchyview" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
+	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-1.8"/>
 	<list key="workingset_selection_history">
 		<item value="comportamentales"/>
 		<item value="estructurales"/>
@@ -17,11 +19,11 @@
 		<item key="linkWithEditor" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_WIDTH" value="678"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-		<item key="DIALOG_HEIGHT" value="869"/>
+		<item key="DIALOG_WIDTH" value="846"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="922"/>
 		<item key="DIALOG_X_ORIGIN" value="630"/>
-		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
 	</section>
 	<section name="SourceActionDialog.constructors">
 		<item key="SynchronizedModifier" value="false"/>
@@ -34,11 +36,11 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="DialogBounds_AddUnimplementedConstructorsDialog">
-		<item key="DIALOG_WIDTH" value="678"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-		<item key="DIALOG_HEIGHT" value="806"/>
+		<item key="DIALOG_WIDTH" value="846"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="922"/>
 		<item key="DIALOG_X_ORIGIN" value="630"/>
-		<item key="DIALOG_Y_ORIGIN" value="12"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
@@ -57,9 +59,9 @@
 		<item key="updateTextualMatches" value="false"/>
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
-		<item key="DIALOG_WIDTH" value="478"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-		<item key="DIALOG_HEIGHT" value="681"/>
+		<item key="DIALOG_WIDTH" value="591"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="814"/>
 		<item key="DIALOG_X_ORIGIN" value="111"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
 	</section>
@@ -101,11 +103,11 @@
 		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item key="DIALOG_WIDTH" value="678"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-		<item key="DIALOG_HEIGHT" value="889"/>
+		<item key="DIALOG_WIDTH" value="846"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="922"/>
 		<item key="DIALOG_X_ORIGIN" value="630"/>
-		<item key="DIALOG_Y_ORIGIN" value="9"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
 		<item key="DIALOG_WIDTH" value="678"/>
@@ -130,7 +132,7 @@
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Blocks" value="false"/>
 		<item key="Comments" value="false"/>
-		<item key="VisibilityModifier" value="1"/>
+		<item key="VisibilityModifier" value="2"/>
 		<item key="InstanceOf" value="false"/>
 		<item key="StringStyle" value="0"/>
 		<item key="ToStringTemplateSelected" value="0"/>
@@ -146,5 +148,8 @@
 		<item key="create_package_info_java" value="false"/>
 	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="1"/>
 	</section>
 </section>
