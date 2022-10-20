@@ -5,7 +5,6 @@ import ejercicio02.abstracto.ProductA;
 import ejercicio02.abstracto.ProductB;
 
 public class Concrete1Factory extends Factory {
-
 	
 	public Concrete1Factory() {
 		super();
