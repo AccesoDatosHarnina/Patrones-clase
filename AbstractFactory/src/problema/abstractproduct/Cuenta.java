@@ -1,4 +1,4 @@
-package problema;
+package problema.abstractproduct;
 
 public abstract class Cuenta {
 	public TarjetaCredito tarjetaCredito;
@@ -9,5 +9,8 @@ public abstract class Cuenta {
 		this.tarjetaCredito = tarjetaCredito;
 		this.tarjetaDebito = tarjetaDebito;
 	}
+	
+	public abstract TarjetaCredito getTarjetaCredito();
+	public abstract TarjetaDebito getTarjetaDebito();
 	
 }
