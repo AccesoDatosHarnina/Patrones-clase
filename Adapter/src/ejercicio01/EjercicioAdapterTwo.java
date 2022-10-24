@@ -14,11 +14,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
-import java.util.stream.Collectors;
 import java.awt.event.ActionEvent;
 
-public class EjercicioAdapterOne extends JFrame {
-	private ArrayList<Persona> clientes;
+public class EjercicioAdapterTwo extends JFrame {
 
 	private JPanel contentPane;
 
@@ -29,7 +27,7 @@ public class EjercicioAdapterOne extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					EjercicioAdapterOne frame = new EjercicioAdapterOne();
+					EjercicioAdapterTwo frame = new EjercicioAdapterTwo();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -41,25 +39,19 @@ public class EjercicioAdapterOne extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public EjercicioAdapterOne() {
+	public EjercicioAdapterTwo() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
-		clientes = new ArrayList<Persona>();
-		clientes.add(new Persona("Luis", (byte) 22, new Cuenta("1")));
-		clientes.add(new Persona("Fernando", (byte) 22, new Cuenta("2")));
-		clientes.add(new Persona("Enriques", (byte) 22, new Cuenta("3")));
-		JList<String> list = new JList(
-				clientes.stream()
-				.map(
-						(cliente) 
-						-> new AdaptadorPersona(cliente).toString()
-						)
-				.collect(Collectors.toList()).toArray()
-				);
+		ArrayList<String> cosass=new ArrayList<>();
+		Persona clientes = null;
+		String cliente=clientes.getNombre().toString()+" "+clientes.getCuenta().getNumero().toString();
+		cosass.toArray();
+		String[] cosas= {"uno","dos"};
+		JList<String> list = new JList(cosas);
 		contentPane.add(list, BorderLayout.CENTER);
 		JButton btnGo = new JButton("GO!");
 		btnGo.addActionListener(new ActionListener() {
