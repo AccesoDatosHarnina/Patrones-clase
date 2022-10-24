@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ejemplo01Solucion.ClasA"/>
-    <fullyQualifiedTypeName name="mezclaCommandAndChain.Client"/>
-    <fullyQualifiedTypeName name="mezclaCommandAndChain.Coche"/>
-    <fullyQualifiedTypeName name="mezclaCommandAndChainPlanteamiento.BaseHandler"/>
-    <fullyQualifiedTypeName name="java.awt.print.PrinterAbortException"/>
-    <fullyQualifiedTypeName name="esquema.MYCollection"/>
-    <fullyQualifiedTypeName name="esquema.IteradorConcreto"/>
-    <fullyQualifiedTypeName name="esquema.MyCollection"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="Mediator"/>
-    <fullyQualifiedTypeName name="MediatorConcrete"/>
-    <fullyQualifiedTypeName name="ComponenteA"/>
-    <fullyQualifiedTypeName name="problema01.Departamento"/>
-    <fullyQualifiedTypeName name="solucion01.Empresa"/>
     <fullyQualifiedTypeName name="T"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="esquema.State"/>
     <fullyQualifiedTypeName name="java.time.Month"/>
@@ -60,4 +43,21 @@
     <fullyQualifiedTypeName name="teoria.ConcreteFactoryOne"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="teoria.AbstactFactory"/>
+    <fullyQualifiedTypeName name="problema.abstractproduct.Cuenta"/>
+    <fullyQualifiedTypeName name="problema.concreteProduct.TarjetaCreditoJoven"/>
+    <fullyQualifiedTypeName name="problema.concreteProduct.TarjetaDebitoJoven"/>
+    <fullyQualifiedTypeName name="problema.concreteProduct.CuentaJoven"/>
+    <fullyQualifiedTypeName name="problema.abstractfactory.AbstractContractFactory"/>
+    <fullyQualifiedTypeName name="problema.abstractproduct.TarjetaCredito"/>
+    <fullyQualifiedTypeName name="problema.abstractproduct.TarjetaDebito"/>
+    <fullyQualifiedTypeName name="problema.abstractfactory.JovenConcreteContractFactory"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ejercicio02.abstracto.ProductA"/>
+    <fullyQualifiedTypeName name="ejercicio02.abstracto.ProductB"/>
+    <fullyQualifiedTypeName name="ejercicio02.concrete1.ProductA1"/>
+    <fullyQualifiedTypeName name="ejercicio02.concrete1.ProductB1"/>
+    <fullyQualifiedTypeName name="ejercicio02.concrete2.Concrete2Factory"/>
+    <fullyQualifiedTypeName name="ejercicio02.abstracto.Factory"/>
+    <fullyQualifiedTypeName name="ejercicio02.concrete1.Concrete1Factory"/>
+    <fullyQualifiedTypeName name="esquema.Service"/>
 </qualifiedTypeNameHistroy>
