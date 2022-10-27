@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="T"/>
-    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
-    <fullyQualifiedTypeName name="esquema.State"/>
-    <fullyQualifiedTypeName name="java.time.Month"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="esquema.Clonable"/>
-    <fullyQualifiedTypeName name="esquema.SubState"/>
-    <fullyQualifiedTypeName name="esquema.IterableCollection"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="problema01.Empleado"/>
-    <fullyQualifiedTypeName name="esquema.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.Observable"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
-    <fullyQualifiedTypeName name="teoriabienparametrizada03.ConcreteProductA"/>
-    <fullyQualifiedTypeName name="lambda035.Types"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="lambda035.FuncionalPrueba"/>
     <fullyQualifiedTypeName name="lambda035.ProductManager"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="ejercicio02.abstracto.Factory"/>
     <fullyQualifiedTypeName name="ejercicio02.concrete1.Concrete1Factory"/>
     <fullyQualifiedTypeName name="esquema.Service"/>
+    <fullyQualifiedTypeName name="ejemplo00.SonyTv"/>
+    <fullyQualifiedTypeName name="ejemplo00.IModeloTVAdvance"/>
+    <fullyQualifiedTypeName name="ejemplo00.RemoteBasic"/>
+    <fullyQualifiedTypeName name="ejemplo00.RemoteAdvance"/>
+    <fullyQualifiedTypeName name="ejemplo00.PhilipsTVAdvance"/>
+    <fullyQualifiedTypeName name="ejemplo00.XiaomiTV"/>
+    <fullyQualifiedTypeName name="esquema00.ComplicadaC"/>
+    <fullyQualifiedTypeName name="esquema00.ComplicadaA"/>
+    <fullyQualifiedTypeName name="base.Indicable"/>
+    <fullyQualifiedTypeName name="base.IRecuperadorIndexado"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="dao.abstracta.DAOAbstractLista"/>
+    <fullyQualifiedTypeName name="dao.concretas.DaoConcreteLista"/>
+    <fullyQualifiedTypeName name="acceso.collection.AccesoConcreteCollection"/>
+    <fullyQualifiedTypeName name="base.RecuperadorUnitarioSerializado"/>
+    <fullyQualifiedTypeName name="base.GrabadorSerializado"/>
 </qualifiedTypeNameHistroy>
