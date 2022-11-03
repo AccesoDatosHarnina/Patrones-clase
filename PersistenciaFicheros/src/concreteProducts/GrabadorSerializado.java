@@ -1,8 +1,11 @@
-package base;
+package concreteProducts;
 
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
+
+import abstractProduct.IGrabador;
+import base.MyObjectOutputStream;
 
 public class GrabadorSerializado<T> implements IGrabador<T> {
 	private boolean estado = false;

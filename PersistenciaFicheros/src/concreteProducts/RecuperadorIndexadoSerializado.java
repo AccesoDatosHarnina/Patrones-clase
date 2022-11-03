@@ -1,8 +1,11 @@
-package base;
+package concreteProducts;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+
+import abstractProduct.IRecuperadorIndexado;
+import base.Indicable;
 
 public class RecuperadorIndexadoSerializado<T extends Indicable, K> implements IRecuperadorIndexado<T, K> {
 

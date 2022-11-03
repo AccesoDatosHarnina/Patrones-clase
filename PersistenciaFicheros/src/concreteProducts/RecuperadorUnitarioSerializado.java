@@ -1,8 +1,10 @@
-package base;
+package concreteProducts;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
+
+import abstractProduct.IRecuperadorUnitario;
 
 public class RecuperadorUnitarioSerializado<T> implements IRecuperadorUnitario<T> {
 

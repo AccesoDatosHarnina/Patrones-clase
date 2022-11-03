@@ -2,8 +2,8 @@ package acceso.collection;
 
 import java.util.Collection;
 
-import base.IGrabador;
-import base.IRecuperadorUnitario;
+import abstractProduct.IGrabador;
+import abstractProduct.IRecuperadorUnitario;
 
 public class AccesoConcreteCollection<T extends Collection> implements IAccessCollection<T>{
 	private final IRecuperadorUnitario<T> recuperador;

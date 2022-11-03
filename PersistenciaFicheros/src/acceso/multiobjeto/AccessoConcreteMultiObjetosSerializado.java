@@ -1,7 +1,7 @@
 package acceso.multiobjeto;
 
-import base.IGrabador;
-import base.IRecuperadorIndexado;
+import abstractProduct.IGrabador;
+import abstractProduct.IRecuperadorIndexado;
 
 public class AccessoConcreteMultiObjetosSerializado<T , K> implements IAccessoAbstractMultiObjetos<T,K> {
 	protected final IRecuperadorIndexado<T, K> recuperador;

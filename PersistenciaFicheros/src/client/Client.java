@@ -1,35 +1,15 @@
 package client;
 
-import java.util.ArrayList;
-
-import acceso.collection.AccesoConcreteCollection;
-import acceso.multiobjeto.AccessoConcreteMultiObjetosSerializado;
-import base.GrabadorSerializado;
-import base.RecuperadorIndexadoSerializado;
-import base.RecuperadorUnitarioSerializado;
-import dao.abstracta.lista.DAOAbstractLista;
-import dao.abstracto.multiobjeto.DaoAbstractMultiObjetos;
-import dao.concretas.lista.DaoConcreteLista;
-import dao.concreto.multiobjeto.DaoConcreteMultiObjetos;
+import facade.Facade;
 import model.data.Doctor;
+import model.data.Lengua;
+import model.data.Nacionalidad;
 import model.data.Paciente;
 
 public class Client {
 	public static void main(String[] args) {
-//		facade.add(new Doctor);
-//		facade.getDoctor(k);
-		ArrayList<Doctor> doctores=new ArrayList<Doctor>();
-		String path = "doctores.data";
-		DAOAbstractLista<ArrayList<Doctor>, Doctor, Integer> daoDoctor=
-				new DaoConcreteLista<ArrayList<Doctor>, Doctor, Integer>
-		(path, doctores, new AccesoConcreteCollection<ArrayList<Doctor>>
-		(path, new RecuperadorUnitarioSerializado<ArrayList<Doctor>>()
-				, new GrabadorSerializado<ArrayList<Doctor>>()));
-		
-		DaoAbstractMultiObjetos<Paciente, String> pacientes = 
-				new DaoConcreteMultiObjetos<Paciente, String>("consultas.dat",
-				new AccessoConcreteMultiObjetosSerializado<Paciente, String>
-				("consultas.dat", new GrabadorSerializado<>(),
-						new RecuperadorIndexadoSerializado<>()));
+		Facade facade = new Facade();
+		facade.add(new Doctor(1, "Fulgencio", Lengua.aleman));
+		facade.add(new Paciente("1", "Roberto", Nacionalidad.Aleman));
 	}
 }
