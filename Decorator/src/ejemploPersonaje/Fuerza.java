@@ -1,11 +1,9 @@
 package ejemploPersonaje;
 
-
 public class Fuerza extends Caracteristica {
-	Personaje personaje;
 
-	public Fuerza(Personaje personaje) {
-		this.personaje = personaje;
+	public Fuerza(Personaje aldeano) {
+		super(aldeano);
 	}
 
 	@Override
@@ -20,11 +18,7 @@ public class Fuerza extends Caracteristica {
 
 	@Override
 	public int mostrarFuerza() {
-		return this.personaje.mostrarFuerza()+150;
+		return this.personaje.mostrarFuerza() + 150;
 	}
-
-	
-
-	
 
 }

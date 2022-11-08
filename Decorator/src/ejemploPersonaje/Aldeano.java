@@ -19,4 +19,9 @@ public class Aldeano extends Personaje {
 		return 0;
 	}
 
+	@Override
+	public Personaje degradaTotal() {
+		return this;
+	}
+
 }

@@ -6,8 +6,10 @@ public static void main(String[] args) {
 	AbstractProductA productA;
 	AbstractProductB productB;
 	Client client=new Client();
+	AbstactFactory miFactoria=new ConcreteFactoryOne();
+	productA=miFactoria.getProductA();
 //
-	productA=client.createA(new ConcreteFactoryOne());
+//	productA=client.createA(new ConcreteFactoryOne());
 //	productB=factory.getProductB();
 }
 

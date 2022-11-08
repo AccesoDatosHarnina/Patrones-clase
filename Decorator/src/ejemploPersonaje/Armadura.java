@@ -1,10 +1,9 @@
 package ejemploPersonaje;
 
 public class Armadura extends Caracteristica {
-	Personaje personaje;
 
 	public Armadura(Personaje personaje) {
-		this.personaje = personaje;
+		super(personaje);
 	}
 
 	@Override
@@ -23,5 +22,6 @@ public class Armadura extends Caracteristica {
 	public int mostrarFuerza() {
 		return this.personaje.mostrarFuerza();
 	}
-	
+
+
 }

@@ -6,4 +6,5 @@ public interface Implementation {
 	public void methodTwo();
 
 	public void methodThree();
+	public void methodFour();
 }

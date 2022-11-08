@@ -20,4 +20,10 @@ public class ConcreteImplementationB implements Implementation {
 
 	}
 
+	@Override
+	public void methodFour() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
