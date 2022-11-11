@@ -1,5 +1,6 @@
 package ejercicio01;
 
+
 public interface Nave {
 
 	public String dispara();
