@@ -9,7 +9,8 @@ public class DisparoEspiral extends Ampliacion {
 
 	@Override
 	public String dispara() {
-		return envuelta.dispara()+"disparo espiral";
+		return envuelta.dispara() + "disparo espiral";
+	}
 
 	@Override
 	public Nave quitarDisparo() {
