@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="problema.abstractfactory.JovenConcreteContractFactory"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="ejercicio02.abstracto.ProductA"/>
-    <fullyQualifiedTypeName name="ejercicio02.abstracto.ProductB"/>
-    <fullyQualifiedTypeName name="ejercicio02.concrete1.ProductA1"/>
-    <fullyQualifiedTypeName name="ejercicio02.concrete1.ProductB1"/>
-    <fullyQualifiedTypeName name="ejercicio02.concrete2.Concrete2Factory"/>
-    <fullyQualifiedTypeName name="ejercicio02.abstracto.Factory"/>
-    <fullyQualifiedTypeName name="ejercicio02.concrete1.Concrete1Factory"/>
-    <fullyQualifiedTypeName name="esquema.Service"/>
-    <fullyQualifiedTypeName name="ejemplo00.SonyTv"/>
-    <fullyQualifiedTypeName name="ejemplo00.IModeloTVAdvance"/>
-    <fullyQualifiedTypeName name="ejemplo00.RemoteBasic"/>
-    <fullyQualifiedTypeName name="ejemplo00.RemoteAdvance"/>
-    <fullyQualifiedTypeName name="ejemplo00.PhilipsTVAdvance"/>
     <fullyQualifiedTypeName name="ejemplo00.XiaomiTV"/>
     <fullyQualifiedTypeName name="esquema00.ComplicadaC"/>
     <fullyQualifiedTypeName name="esquema00.ComplicadaA"/>
@@ -51,7 +36,6 @@
     <fullyQualifiedTypeName name="ejemploPersonaje.Caracteristica"/>
     <fullyQualifiedTypeName name="ejemploPersonaje.Aldeano"/>
     <fullyQualifiedTypeName name="ejemploPersonaje.Personaje"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="esquema.Flyweight"/>
     <fullyQualifiedTypeName name="esquema.FlyWeightFactory"/>
     <fullyQualifiedTypeName name="ejercicio01Solucion.PelotaFlyWeight"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="java.util.Observer"/>
     <fullyQualifiedTypeName name="java.beans.PropertyChangeListener"/>
     <fullyQualifiedTypeName name="ejercicio01.Ampliacion"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="ejemplo01.Rectangulo"/>
+    <fullyQualifiedTypeName name="ejemplo01.Grupo"/>
+    <fullyQualifiedTypeName name="java.util.Observable"/>
+    <fullyQualifiedTypeName name="ejemplo01.Observador"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="parajava11.Observador"/>
+    <fullyQualifiedTypeName name="java.beans.PropertyChangeSupport"/>
+    <fullyQualifiedTypeName name="parajava11.AvisadorDelegado"/>
+    <fullyQualifiedTypeName name="parajava11.Avisador"/>
+    <fullyQualifiedTypeName name="solucion03.Handler"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="solucion03.Imprimadora"/>
+    <fullyQualifiedTypeName name="solucion03.Pintor"/>
+    <fullyQualifiedTypeName name="solucion03.Coche"/>
+    <fullyQualifiedTypeName name="solucion03.Manager"/>
 </qualifiedTypeNameHistroy>
