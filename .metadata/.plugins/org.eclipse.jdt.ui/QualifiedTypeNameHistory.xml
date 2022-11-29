@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ejemplo00.XiaomiTV"/>
-    <fullyQualifiedTypeName name="esquema00.ComplicadaC"/>
-    <fullyQualifiedTypeName name="esquema00.ComplicadaA"/>
-    <fullyQualifiedTypeName name="base.Indicable"/>
-    <fullyQualifiedTypeName name="base.IRecuperadorIndexado"/>
     <fullyQualifiedTypeName name="dao.abstracta.DAOAbstractLista"/>
     <fullyQualifiedTypeName name="dao.concretas.DaoConcreteLista"/>
     <fullyQualifiedTypeName name="acceso.collection.AccesoConcreteCollection"/>
@@ -23,7 +18,6 @@
     <fullyQualifiedTypeName name="modelo.data.Doctor"/>
     <fullyQualifiedTypeName name="modelo.daos.collection.IDAOList"/>
     <fullyQualifiedTypeName name="modelo.daos.multi.IDAOMultiObjects"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="ejemplo02.SocioRepo"/>
     <fullyQualifiedTypeName name="esquema.Implementation"/>
     <fullyQualifiedTypeName name="esquema.ConcreteImplementationA"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="solucion03.Pintor"/>
     <fullyQualifiedTypeName name="solucion03.Coche"/>
     <fullyQualifiedTypeName name="solucion03.Manager"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="esquema.State"/>
+    <fullyQualifiedTypeName name="esquema.SubState"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>
