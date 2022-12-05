@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="dao.abstracta.DAOAbstractLista"/>
-    <fullyQualifiedTypeName name="dao.concretas.DaoConcreteLista"/>
-    <fullyQualifiedTypeName name="acceso.collection.AccesoConcreteCollection"/>
-    <fullyQualifiedTypeName name="base.RecuperadorUnitarioSerializado"/>
-    <fullyQualifiedTypeName name="base.GrabadorSerializado"/>
-    <fullyQualifiedTypeName name="facade.Facade"/>
-    <fullyQualifiedTypeName name="model.data.Lengua"/>
-    <fullyQualifiedTypeName name="model.data.Nacionalidad"/>
-    <fullyQualifiedTypeName name="repostiories.DoctorRepositorio"/>
-    <fullyQualifiedTypeName name="model.data.Paciente"/>
-    <fullyQualifiedTypeName name="repostiories.PacienteRepositorio"/>
     <fullyQualifiedTypeName name="abstractProduct.IRecuperador"/>
     <fullyQualifiedTypeName name="abstractFactory.AbstractAccess"/>
     <fullyQualifiedTypeName name="model.data.Doctor"/>
@@ -56,8 +45,19 @@
     <fullyQualifiedTypeName name="solucion03.Manager"/>
     <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="esquema.State"/>
     <fullyQualifiedTypeName name="esquema.SubState"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="esquema.State"/>
+    <fullyQualifiedTypeName name="esquema.ConcreteStateA"/>
+    <fullyQualifiedTypeName name="esquema.Context"/>
+    <fullyQualifiedTypeName name="ejemplo01.DePie"/>
+    <fullyQualifiedTypeName name="ejemplo01.Persona"/>
+    <fullyQualifiedTypeName name="ejemplo01.Sentado"/>
+    <fullyQualifiedTypeName name="ejemplo01.Vejiga"/>
+    <fullyQualifiedTypeName name="ejemplo01.Pipiable"/>
+    <fullyQualifiedTypeName name="ejemploSeres.solucion.Comportamiento"/>
+    <fullyQualifiedTypeName name="ejemploSeres.solucion.Menor"/>
+    <fullyQualifiedTypeName name="ejemploSeres.solucion.Anciano"/>
 </qualifiedTypeNameHistroy>

@@ -1,10 +1,11 @@
-package ejemploSeres;
+package ejemploSeres.solucion;
 
 public class Ser {
 	private static final int vidaMax = 120;
 	private static final int vidaMin = 0;
 	private static final int edadAdulto = 18;
 	protected static final int edadAnciano = 65;
+	private Comportamiento comportamiento=new Menor();
 
 	protected float esperanzaVida;
 	protected int edad;
@@ -44,8 +45,15 @@ public class Ser {
 
 	public boolean envejecer() {
 		this.edad++;
-		// TODO tengo que ver si un menor pasa a ser adulto o no
-		// y para que pase de adulto a anciano
+		if(pasaAAdulto()) {
+			if(((Menor)comportamiento).isViable()){
+				comportamiento=new Adulto(this);
+			}
+		}
+		if(pasaAAnciano()) {
+			//antes de eso hay que quitarle los ahorros
+			comportamiento=new Anciano(this);
+		}
 		return isAlive();
 	}
 
@@ -63,8 +71,7 @@ public class Ser {
 	}
 	
 	public void alimentar(int sueldo) {
-		System.out.println("soy un ser a secas");
-		recalcularEsperanzaDeVida(sueldo);
+		comportamiento.alimentar(sueldo);
 	}
 
 	public boolean pasaAAnciano() {
