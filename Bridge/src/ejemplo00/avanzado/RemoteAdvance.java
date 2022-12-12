@@ -1,4 +1,6 @@
-package ejemplo00;
+package ejemplo00.avanzado;
+
+import ejemplo00.bridge.RemoteBasic;
 
 public class RemoteAdvance extends RemoteBasic {
 	IModeloTVAdvance modeloTV;

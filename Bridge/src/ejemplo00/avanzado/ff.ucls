@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <class id="1" language="java" name="ejemplo00.Principal" project="Bridge" file="/Bridge/src/ejemplo00/Principal.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="1" language="java" name="ejemplo00.cliente.Principal" project="Bridge" 
+    file="/Bridge/src/ejemplo00/cliente/Principal.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="332" y="75"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -10,8 +10,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <class id="2" language="java" name="ejemplo00.RemoteBasic" project="Bridge" 
-    file="/Bridge/src/ejemplo00/RemoteBasic.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="2" language="java" name="ejemplo00.bridge.RemoteBasic" project="Bridge" 
+    file="/Bridge/src/ejemplo00/bridge/RemoteBasic.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="331" y="228"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -19,8 +19,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="ejemplo00.RemoteAdvance" project="Bridge" 
-    file="/Bridge/src/ejemplo00/RemoteAdvance.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="3" language="java" name="ejemplo00.avanzado.RemoteAdvance" project="Bridge" 
+    file="/Bridge/src/ejemplo00/avanzado/RemoteAdvance.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="338" y="369"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -28,8 +28,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <interface id="4" language="java" name="ejemplo00.IModeloTV" project="Bridge" 
-    file="/Bridge/src/ejemplo00/IModeloTV.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="4" language="java" name="ejemplo00.bridge.IModeloTV" project="Bridge" 
+    file="/Bridge/src/ejemplo00/bridge/IModeloTV.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="715" y="226"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -37,8 +37,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </interface>  
-  <class id="5" language="java" name="ejemplo00.SonyTv" project="Bridge" file="/Bridge/src/ejemplo00/SonyTv.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="5" language="java" name="ejemplo00.implmentaciones.SonyTv" project="Bridge" 
+    file="/Bridge/src/ejemplo00/implmentaciones/SonyTv.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="710" y="451"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -46,8 +46,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="ejemplo00.XiaomiTV" project="Bridge" file="/Bridge/src/ejemplo00/XiaomiTV.java" 
-    binary="false" corner="BOTTOM_RIGHT">    
+  <class id="6" language="java" name="ejemplo00.implmentaciones.XiaomiTV" project="Bridge" 
+    file="/Bridge/src/ejemplo00/implmentaciones/XiaomiTV.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="923" y="435"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -55,8 +55,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <interface id="7" language="java" name="ejemplo00.IModeloTVAdvance" project="Bridge" 
-    file="/Bridge/src/ejemplo00/IModeloTVAdvance.java" binary="false" corner="BOTTOM_RIGHT">    
+  <interface id="7" language="java" name="ejemplo00.avanzado.IModeloTVAdvance" project="Bridge" 
+    file="/Bridge/src/ejemplo00/avanzado/IModeloTVAdvance.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="508" y="518"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -64,8 +64,8 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </interface>  
-  <class id="8" language="java" name="ejemplo00.PhilipsTVAdvance" project="Bridge" 
-    file="/Bridge/src/ejemplo00/PhilipsTVAdvance.java" binary="false" corner="BOTTOM_RIGHT">    
+  <class id="8" language="java" name="ejemplo00.avanzado.PhilipsTVAdvance" project="Bridge" 
+    file="/Bridge/src/ejemplo00/avanzado/PhilipsTVAdvance.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="145" y="512"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
@@ -73,42 +73,50 @@
       <operations public="false" package="false" protected="false" private="false" static="false"/>    
     </display>  
   </class>  
-  <dependency id="9">    
+  <realization id="9">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </realization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <dependency id="11">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <dependency id="10">    
+  <dependency id="12">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
-  <association id="11">    
+  <association id="13">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="12" name="modeloTV"/>      
-      <multiplicity id="13" minimum="0" maximum="1"/>    
+      <attribute id="14" name="modeloTV">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="15" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="4" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="14">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="7"/>    
-    <end type="TARGET" refId="4"/>  
-  </generalization>  
-  <realization id="16">    
-    <end type="SOURCE" refId="8"/>    
-    <end type="TARGET" refId="7"/>  
-  </realization>  
-  <association id="17">    
+  <association id="16">    
     <end type="SOURCE" refId="3" navigable="false">      
-      <attribute id="18" name="modeloTV"/>      
-      <multiplicity id="19" minimum="0" maximum="1"/>    
+      <attribute id="17" name="modeloTV">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="18" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="7" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <generalization id="19">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
   <realization id="20">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="4"/>  

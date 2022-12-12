@@ -1,4 +1,6 @@
-package ejemplo00;
+package ejemplo00.implmentaciones;
+
+import ejemplo00.bridge.IModeloTV;
 
 public class SonyTv implements IModeloTV {
 
@@ -12,6 +14,11 @@ public class SonyTv implements IModeloTV {
 	public void apagar() {
 		System.out.println("sending rf 2000");
 
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		System.out.println("sending rf 2000"+volume);
 	}
 
 }

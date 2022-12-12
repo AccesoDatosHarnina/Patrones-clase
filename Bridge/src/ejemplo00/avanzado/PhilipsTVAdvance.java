@@ -1,4 +1,4 @@
-package ejemplo00;
+package ejemplo00.avanzado;
 
 public class PhilipsTVAdvance implements IModeloTVAdvance {
 
@@ -18,6 +18,12 @@ public class PhilipsTVAdvance implements IModeloTVAdvance {
 	public void mute() {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

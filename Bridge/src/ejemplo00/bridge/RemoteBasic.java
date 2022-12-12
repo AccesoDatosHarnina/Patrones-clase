@@ -1,4 +1,4 @@
-package ejemplo00;
+package ejemplo00.bridge;
 
 public class RemoteBasic {
 	
@@ -15,7 +15,7 @@ public class RemoteBasic {
 
 	public void botonUno() {
 		modeloTV.encender();
-		
+		modeloTV.setVolume(1);
 	}
 
 	public void botonDos() {
