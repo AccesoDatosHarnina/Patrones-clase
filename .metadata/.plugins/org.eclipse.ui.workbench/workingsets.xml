@@ -2,6 +2,7 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1632895921641_1" label="creacionales" name="creacionales">
 <item elementID="=FactoryMethod/src&lt;teoriamal00" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Examen patrones" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1634279911142_2" label="estructurales" name="estructurales">
 <item elementID="=Adapter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
