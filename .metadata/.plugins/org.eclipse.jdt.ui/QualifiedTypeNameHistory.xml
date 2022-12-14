@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="abstractProduct.IRecuperador"/>
-    <fullyQualifiedTypeName name="abstractFactory.AbstractAccess"/>
-    <fullyQualifiedTypeName name="model.data.Doctor"/>
-    <fullyQualifiedTypeName name="concreteFactory.ConcreteFactorySerializadoUnitario"/>
-    <fullyQualifiedTypeName name="modelo.data.Doctor"/>
     <fullyQualifiedTypeName name="modelo.daos.collection.IDAOList"/>
     <fullyQualifiedTypeName name="modelo.daos.multi.IDAOMultiObjects"/>
     <fullyQualifiedTypeName name="ejemplo02.SocioRepo"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="ejemploSeres.solucion.Comportamiento"/>
     <fullyQualifiedTypeName name="ejemploSeres.solucion.Menor"/>
     <fullyQualifiedTypeName name="ejemploSeres.solucion.Anciano"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+    <fullyQualifiedTypeName name="java.lang.Float"/>
+    <fullyQualifiedTypeName name="model.customer.BiasCustomer"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
+    <fullyQualifiedTypeName name="model.customer.CustomerResponse"/>
 </qualifiedTypeNameHistroy>

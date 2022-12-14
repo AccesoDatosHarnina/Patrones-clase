@@ -1,16 +1,21 @@
 package model.customer;
 
 import java.util.Random;
+import java.util.concurrent.Callable;
 
 import control.WorkingDay;
 import model.park.Fraction;
 import modelAtractions.FairGround;
 
-public class BiasCustomer  implements Runnable{
+public class BiasCustomer  implements Callable<CustomerResponse>{
 	// las ganas que tiene de montarse en otra atraccion depende de lo bien
 	// que se lo este pasando, aunque todo tiene un limite de X veces
 	private int maxRides;
-	private int actualRides = 0;
+	private int actualRides = 1;
+	public int getActualRides() {
+		return actualRides;
+	}
+
 	private float maxRate = 10;
 	private float minimumEnjoyment = 5f;
 	private Fraction currentEnjoyment = new Fraction();
@@ -30,7 +35,7 @@ public class BiasCustomer  implements Runnable{
 		return new CustomerCard(fairGround,new Random().nextInt(10));
 	}
 
-	public float getCurrentValue() {
+	public float getCurrentValueOfEnjoyment() {
 		return currentEnjoyment.getCurrentValue();
 	}
 
@@ -40,20 +45,21 @@ public class BiasCustomer  implements Runnable{
 
 
 
+	private boolean stillExperience() {
+		return actualRides<maxRides;
+	}
+
 	@Override
-	public void run() {
+	public CustomerResponse call() throws Exception {
 		do {
 			CustomerCard takeRide = takeRide();
 			//valorando la atraccion
 			workingDay.evaluate(takeRide);
 			//valorando mi disfrute
 			currentEnjoyment.incrementOneValoration(takeRide.getRate());
-			actualRides++;
+			++actualRides;
 		}while(isStillExcited()&&stillExperience());
-	}
-
-	private boolean stillExperience() {
-		return actualRides<=maxRides;
+		return new CustomerResponse(currentEnjoyment,actualRides);
 	}
 
 	
