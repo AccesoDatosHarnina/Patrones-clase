@@ -29,6 +29,7 @@
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1671398760688_7" label="examenes" name="examenes">
 <item elementID="=examen hilos" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Examen Patrones Solucion" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1629279290337_0" label="Window Working Set" name="Aggregate for window 1629279290337"/>
 <mruList name="examenes"/>
