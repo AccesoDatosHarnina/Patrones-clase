@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="modelo.daos.collection.IDAOList"/>
-    <fullyQualifiedTypeName name="modelo.daos.multi.IDAOMultiObjects"/>
-    <fullyQualifiedTypeName name="ejemplo02.SocioRepo"/>
-    <fullyQualifiedTypeName name="esquema.Implementation"/>
-    <fullyQualifiedTypeName name="esquema.ConcreteImplementationA"/>
-    <fullyQualifiedTypeName name="ejemplo.Cocinador"/>
-    <fullyQualifiedTypeName name="ejemplo.Abstraccion"/>
     <fullyQualifiedTypeName name="ejemplo.HornoGas"/>
     <fullyQualifiedTypeName name="ejemplo.Cliente"/>
     <fullyQualifiedTypeName name="ejemploPersonaje.Fuerza"/>
@@ -33,7 +26,6 @@
     <fullyQualifiedTypeName name="parajava11.AvisadorDelegado"/>
     <fullyQualifiedTypeName name="parajava11.Avisador"/>
     <fullyQualifiedTypeName name="solucion03.Handler"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="solucion03.Imprimadora"/>
     <fullyQualifiedTypeName name="solucion03.Pintor"/>
     <fullyQualifiedTypeName name="solucion03.Coche"/>
@@ -55,9 +47,17 @@
     <fullyQualifiedTypeName name="ejemploSeres.solucion.Comportamiento"/>
     <fullyQualifiedTypeName name="ejemploSeres.solucion.Menor"/>
     <fullyQualifiedTypeName name="ejemploSeres.solucion.Anciano"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
     <fullyQualifiedTypeName name="java.lang.Float"/>
     <fullyQualifiedTypeName name="model.customer.BiasCustomer"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
     <fullyQualifiedTypeName name="model.customer.CustomerResponse"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="org.junit.Ignore"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Callable"/>
+    <fullyQualifiedTypeName name="modelo.HormigaTest"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="modelo.IdoneidadADN"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>

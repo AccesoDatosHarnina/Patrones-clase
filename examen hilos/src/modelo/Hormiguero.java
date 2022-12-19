@@ -1,23 +1,26 @@
 package modelo;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Future;
 
 import objectsmothers.HormigasOM;
 
-public class Hormiguero {
+public class Hormiguero implements Runnable{
 	private List<Hormiga> hormigas;
 	private Map<Alimento, Integer> despensa;
 	private List<IdoneidadADN> idoneidades;
+
 	public void setIdoneidades(List<IdoneidadADN> idoneidades) {
 		this.idoneidades = idoneidades;
 	}
 
-
 	private ExecutorService executorService;
-	private int poblacionMaxima= 10000;
+	private int poblacionMaxima = 10000;
 	private Criadero criadero;
 
 	public Hormiguero() {
@@ -26,12 +29,41 @@ public class Hormiguero {
 		despensa = new HashMap<Alimento, Integer>();
 	}
 
+	@Override
+	public void run() {
+		idoneidades = new ArrayList();
+		criadero = new Criadero(this);
+		do {
+			for (Hormiga hormiga : hormigas) {
+				Future<IdoneidadADN> submit = executorService.submit(hormiga);
+				try {
+					idoneidades.add(submit.get());
+				} catch (InterruptedException | ExecutionException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			Future<List<Hormiga>> submit = executorService.submit(criadero);
+			try {
+				hormigas.addAll(submit.get());
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ExecutionException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} while (hormigas.size() > poblacionMaxima);
+	}
+
 	public void descargar(Alimento alimento) {
-		if (despensa.containsKey(alimento)) {
-			Integer cantidad = despensa.get(alimento);
-			despensa.put(alimento, ++cantidad);
-		} else {
-			despensa.put(alimento, 1);
+		synchronized (despensa) {
+			if (despensa.containsKey(alimento)) {
+				Integer cantidad = despensa.get(alimento);
+				despensa.put(alimento, ++cantidad);
+			} else {
+				despensa.put(alimento, 1);
+			}
 		}
 	}
 
@@ -43,11 +75,8 @@ public class Hormiguero {
 		return despensa;
 	}
 
-	
 	public List<IdoneidadADN> getIdoneidades() {
 		return idoneidades;
 	}
-
-	
 
 }

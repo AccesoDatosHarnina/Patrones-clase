@@ -1,13 +1,14 @@
 package modelo;
 
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.Callable;
 
 import objectsmothers.HormigasOM;
 
-public class Criadero  {
-
+public class Criadero  implements Callable<List<Hormiga>>{
 	private Map<Alimento, Integer> despensa;
 	private List<Hormiga> hormigas;
 	private List<IdoneidadADN> idoneidades;
@@ -31,7 +32,13 @@ public class Criadero  {
 				iterator.remove();
 		}
 	}
-	
+	@Override
+	public List<Hormiga> call() throws Exception {
+		eliminar();
+		List<Hormiga> criar = criar();
+		vaciarDespensa();
+		return criar;
+	}
 	/**
 	 * genera una serie de hormigas basandose en la despensa
 	 * @return
@@ -60,11 +67,27 @@ public class Criadero  {
 
 	//java 8
 	private IdoneidadADN obtenerMasIdoneo(List<IdoneidadADN> idoneidades) {
-		IdoneidadADN idoneo = idoneidades.get(0);
-		for (int i = 1; i < idoneidades.size(); i++) {
-			idoneo = idoneidades.get(i).isMejor(idoneo);
-		}
-		return idoneo;
+		//java 6
+//		IdoneidadADN idoneo = idoneidades.get(0);
+//		for (int i = 1; i < idoneidades.size(); i++) {
+//			idoneo = idoneidades.get(i).isMejor(idoneo);
+//		}
+//		return idoneo;
+		//java 8
+		return idoneidades.stream()
+				.sorted((a,b)->{return (int) (a.getIndiceSalubridadPoder()-b.getIndiceSalubridadPoder());})
+				.findFirst()
+				.get();
 	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
