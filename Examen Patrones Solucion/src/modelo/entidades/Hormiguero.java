@@ -106,7 +106,7 @@ public class Hormiguero {
         for (Iterator<Hormiga> iterator = hormigas.iterator(); iterator.hasNext(); ) {
             Hormiga next = iterator.next();
             if (!next.isAlive()) {
-                statistics.addData(new HormigaData(next.getAlimentos(), next.getVida(), next.getId()));
+                statistics.addData(HormigaDataAdapter.convert(next));
                 iterator.remove();
             }
         }
