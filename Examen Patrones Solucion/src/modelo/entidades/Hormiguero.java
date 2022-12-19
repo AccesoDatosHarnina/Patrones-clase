@@ -63,7 +63,11 @@ public class Hormiguero implements PropertyChangeListener,Observer {
 	private void convertirHormigasGuerra(int i) {
 		int contador = 0;
 		for (int j = 0; j < cantidadHormigasGuerreras; j++) {
-			hormigas.get(j).setGuerrera(true);
+			Hormiga hormiga = hormigas.get(j);
+			if(!(hormiga instanceof Guerrera)) {
+				hormigas.remove(hormigas.indexOf(hormiga));
+				hormigas.add(new Guerrera(hormiga,this));
+			}
 			contador++;
 		}
 		System.out.println("hormigas  guerreras convertidas " + contador);
@@ -92,9 +96,12 @@ public class Hormiguero implements PropertyChangeListener,Observer {
 	private void crearHormigas(int guerreras) {
 		int contador = 0;
 		for (int i = hormigas.size(); i < cantidadHormigasTotal; i++) {
-			Hormiga hormiga = new Hormiga(id++, this);
+			Hormiga hormiga;
 			if (guerreras-- > 0) {
-				hormiga.setGuerrera(true);
+				hormiga = new Guerrera(id++, this);
+			}
+			else {
+				hormiga=new Recolectora(id++, this);
 			}
 			hormigas.add(hormiga);
 			contador++;
