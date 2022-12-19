@@ -11,7 +11,7 @@ import java.util.Observer;
 import modelo.insectos.*;
 import modelo.soporte.*;
 
-public class Hormiguero implements PropertyChangeListener,Observer {
+public class Hormiguero implements PropertyChangeListener, Observer {
 	Statistics statistics;
 	public final int cantidadHormigasTotal = 30;
 	public final int cantidadHormigasGuerreras = 15;
@@ -31,18 +31,22 @@ public class Hormiguero implements PropertyChangeListener,Observer {
 	public void funciona() {
 		Historia historia = new Historia();
 		historia.addObserver(this);
-		int guerreras = 0;
 		do {
 			historia.pasaHistoria();
 			trabajar();
-			guerreras = 0;
-			if (historia.isEnGuerra()) {
-				guerreras = cantidadHormigasGuerreras - contarHormigasGuerreras();
-			}
-			crearHormigas(guerreras);
-		}while(!historia.isAcabada());
+			crearHormigas(calcularHormigasGuerrerasNecesarias(historia));
+		} while (!historia.isAcabada());
 //        System.out.println(statistics.getCurrentMediaAlimento());
 //        System.out.println(statistics.getCurrentIndiceGlobal());
+	}
+
+	private int calcularHormigasGuerrerasNecesarias(Historia historia) {
+		int guerreras;
+		guerreras = 0;
+		if (historia.isEnGuerra()) {
+			guerreras = cantidadHormigasGuerreras - contarHormigasGuerreras();
+		}
+		return guerreras;
 	}
 
 	private void trabajar() {
@@ -60,28 +64,18 @@ public class Hormiguero implements PropertyChangeListener,Observer {
 		this.hormigas = hormigas;
 	}
 
-	private void convertirHormigasGuerra(int i) {
-		int contador = 0;
-		for (int j = 0; j < cantidadHormigasGuerreras; j++) {
-			Hormiga hormiga = hormigas.get(j);
-			if(!(hormiga instanceof Guerrera)) {
-				hormigas.remove(hormigas.indexOf(hormiga));
-				hormigas.add(new Guerrera(hormiga,this));
-			}
-			contador++;
+	private void convertirHormigasGuerra() {
+		for (int j = 0; j < cantidadHormigasGuerreras - contarHormigasGuerreras(); j++) {
+			hormigas.get(j).setComportamiento(true);
 		}
-		System.out.println("hormigas  guerreras convertidas " + contador);
 	}
 
 	private void convertirHormigasPaz() {
-		int contador = 0;
 		for (Hormiga hormiga : hormigas) {
 			if (hormiga.isGuerrera()) {
-				hormiga.setGuerrera(false);
-				contador++;
+				hormiga.setComportamiento(false);
 			}
 		}
-		System.out.println("hormigas  convertidas a la paz " + contador);
 	}
 
 	private int contarHormigasGuerreras() {
@@ -94,39 +88,30 @@ public class Hormiguero implements PropertyChangeListener,Observer {
 	}
 
 	private void crearHormigas(int guerreras) {
-		int contador = 0;
 		for (int i = hormigas.size(); i < cantidadHormigasTotal; i++) {
-			Hormiga hormiga;
+			Hormiga hormiga = new Hormiga(id++, this);
 			if (guerreras-- > 0) {
-				hormiga = new Guerrera(id++, this);
+				hormiga.setComportamiento(true);
+				hormigas.add(hormiga);
 			}
-			else {
-				hormiga=new Recolectora(id++, this);
-			}
-			hormigas.add(hormiga);
-			contador++;
 		}
-	}
-
-	private void setTareaAcabada(boolean tareaAcabada) {
-		this.tareaAcabada = tareaAcabada;
 	}
 
 	@Override
 	public void propertyChange(PropertyChangeEvent evt) {
 		PropertyChangeEvent evt2 = evt;
 		Hormiga hormiga = (Hormiga) evt.getNewValue();
-		statistics.addData(HormigaDataAdapter.convert(hormiga));
+		statistics.addData((HormigaData) evt.getOldValue());
 		hormigas.remove(hormiga);
 	}
 
 	@Override
 	public void update(Observable o, Object arg) {
-		Boolean respuesta=(Boolean) arg;
-		if(respuesta) {
-			 convertirHormigasGuerra(cantidadHormigasGuerreras - contarHormigasGuerreras());
-		}else {
-			  convertirHormigasPaz();
+		Boolean respuesta = (Boolean) arg;
+		if (respuesta) {
+			convertirHormigasGuerra();
+		} else {
+			convertirHormigasPaz();
 		}
 	}
 

@@ -2,22 +2,35 @@ package modelo.insectos;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
-import modelo.entidades.Hormiguero;
+import modelo.soporte.Alimento;
 
-public class Guerrera extends Hormiga {
+public class Guerrera implements Comportamiento {
+	Hormiga hormiga;
 	List<Integer> luchas;
-	public Guerrera(long id, Hormiguero hormiguero) {
-		super(id, hormiguero);
-		luchas = new ArrayList<>();
+
+	public Guerrera(Hormiga hormiga) {
+		super();
+		luchas=new ArrayList<>();
 	}
-	public Guerrera(Hormiga hormiga,Hormiguero hormiguero) {
-		super(hormiga,hormiguero);
-	}
-	public void hacerEspecial() {
-		incrementaEdad(vida / 4);
-		int tiempoMaximoLucha = 100;
+
+	@Override
+	public void actua() {
+		hormiga.incrementaEdad(hormiga.getVida()/4);
+		int tiempoMaximoLucha=100;
 		luchas.add(new Random().nextInt(tiempoMaximoLucha));
 	}
+
+	@Override
+	public Optional<List<Alimento>> getAlimentos() {
+		return Optional.ofNullable(null);
+	}
+
+	@Override
+	public boolean isGuerrera() {
+		return true;
+	}
+
 }

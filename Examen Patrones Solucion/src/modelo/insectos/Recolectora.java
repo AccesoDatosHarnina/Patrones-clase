@@ -1,27 +1,33 @@
 package modelo.insectos;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
-import modelo.entidades.Hormiguero;
 import modelo.soporte.Alimento;
 
-public class Recolectora extends Hormiga {
+public class Recolectora implements Comportamiento {
+	Hormiga hormiga;
 	List<Alimento> alimentos;
-	public Recolectora(long id, Hormiguero hormiguero) {
-		super(id, hormiguero);
-		alimentos = new ArrayList();
-	}
-	public List<Alimento> getAlimentos() {
-		return alimentos;
+
+	public Recolectora(Hormiga hormiga) {
+		super();
+		this.hormiga = hormiga;
 	}
 
-	public void setAlimentos(List<Alimento> alimentos) {
-		this.alimentos = alimentos;
-	}
-	public void hacerEspecial() {
-		incrementaEdad(incrementoVidaPorDefecto);
+	@Override
+	public void actua() {
 		alimentos.add(Alimento.getRandomAlimento());
-		
+		hormiga.incrementaEdad(hormiga.incrementoVidaPorDefecto);
 	}
+
+	@Override
+	public Optional<List<Alimento>> getAlimentos() {
+		return Optional.of(alimentos);
+	}
+
+	@Override
+	public boolean isGuerrera() {
+		return false;
+	}
+
 }

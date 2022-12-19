@@ -3,48 +3,41 @@ package modelo.insectos;
 import java.beans.PropertyChangeSupport;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.Random;
 
 import modelo.entidades.Hormiguero;
 import modelo.soporte.Alimento;
+import modelo.soporte.HormigaDataAdapter;
 
-public abstract class Hormiga {
+public class Hormiga {
 
 	private final int maxima = 50;
 	protected int vida = new Random().nextInt(maxima) + 1;
 	private int edad = 0;
 	public long id;
 	protected int incrementoVidaPorDefecto = 1;
-	private boolean guerrera = false;
 	// observer
 	PropertyChangeSupport pcs;
+	// State
+	Comportamiento comportamiento;
 
 	public Hormiga(long id, Hormiguero hormiguero) {
 		super();
 		this.id = id;
 		pcs = new PropertyChangeSupport(this);
 		pcs.addPropertyChangeListener(hormiguero);
-	}
-
-	public Hormiga(Hormiga hormiga, Hormiguero hormiguero) {
-		this.vida = hormiga.getVida();
-		edad = hormiga.getEdad();
-		id=hormiga.getId();
-		pcs = new PropertyChangeSupport(this);
-		pcs.addPropertyChangeListener(hormiguero);
+		comportamiento = new Recolectora(this);
 	}
 
 	public boolean isGuerrera() {
-		return guerrera;
-	}
-
-	public void setGuerrera(boolean guerrera) {
-		this.guerrera = guerrera;
+		return comportamiento.isGuerrera();
 	}
 
 	public int getVida() {
 		return vida;
 	}
+
 	public int getEdad() {
 		return edad;
 	}
@@ -60,14 +53,21 @@ public abstract class Hormiga {
 	public void setId(long id) {
 		this.id = id;
 	}
-
-	public abstract void hacerEspecial();
+	
+	public void setComportamiento(boolean guerrera) {
+		if(guerrera) {
+			comportamiento=new Guerrera(this);
+		}
+		else {
+			comportamiento=new Recolectora(this);
+		}
+	}
 
 	public void hacerTarea() {
 		if (this.isAlive()) {
-			hacerEspecial();
+			comportamiento.actua();
 		} else {
-			pcs.firePropertyChange("muerte", null, this);
+			pcs.firePropertyChange("muerte", HormigaDataAdapter.convert(this), this);
 		}
 
 	};
@@ -78,6 +78,10 @@ public abstract class Hormiga {
 
 	protected void incrementaEdad(int i) {
 		this.edad += i;
+	}
+
+	public Optional<List<Alimento>> getAlimentos() {
+		return comportamiento.getAlimentos();
 	}
 
 }
