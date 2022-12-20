@@ -27,7 +27,7 @@ public class Hormiga {
 		this.id = id;
 		pcs = new PropertyChangeSupport(this);
 		pcs.addPropertyChangeListener(hormiguero);
-		comportamiento = new Recolectora(this);
+		comportamiento = new RecolectoraCreator().factoryMethod(this);
 	}
 
 	public boolean isGuerrera() {
@@ -54,13 +54,8 @@ public class Hormiga {
 		this.id = id;
 	}
 	
-	public void setComportamiento(boolean guerrera) {
-		if(guerrera) {
-			comportamiento=new Guerrera(this);
-		}
-		else {
-			comportamiento=new Recolectora(this);
-		}
+	public void setComportamiento(ComportamientoCreator cp) {
+		comportamiento=cp.factoryMethod(this);
 	}
 
 	public void hacerTarea() {

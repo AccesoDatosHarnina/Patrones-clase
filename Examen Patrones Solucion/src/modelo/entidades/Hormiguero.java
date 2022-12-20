@@ -66,14 +66,14 @@ public class Hormiguero implements PropertyChangeListener, Observer {
 
 	private void convertirHormigasGuerra() {
 		for (int j = 0; j < cantidadHormigasGuerreras - contarHormigasGuerreras(); j++) {
-			hormigas.get(j).setComportamiento(true);
+			hormigas.get(j).setComportamiento(new GuerreraCreator());
 		}
 	}
 
 	private void convertirHormigasPaz() {
 		for (Hormiga hormiga : hormigas) {
 			if (hormiga.isGuerrera()) {
-				hormiga.setComportamiento(false);
+				hormiga.setComportamiento(new RecolectoraCreator());
 			}
 		}
 	}
@@ -91,7 +91,7 @@ public class Hormiguero implements PropertyChangeListener, Observer {
 		for (int i = hormigas.size(); i < cantidadHormigasTotal; i++) {
 			Hormiga hormiga = new Hormiga(id++, this);
 			if (guerreras-- > 0) {
-				hormiga.setComportamiento(true);
+				hormiga.setComportamiento(new RecolectoraCreator());
 				hormigas.add(hormiga);
 			}
 		}
