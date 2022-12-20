@@ -54,8 +54,8 @@ public class Hormiga {
 		this.id = id;
 	}
 	
-	public void setComportamiento(ComportamientoCreator cp) {
-		comportamiento=cp.factoryMethod(this);
+	public void setComportamiento(Comportamiento cp) {
+		comportamiento=cp;
 	}
 
 	public void hacerTarea() {
